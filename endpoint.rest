@@ -1,0 +1,33 @@
+# HTTP/1.1 200 OK
+# X-Powered-By: Express
+# Access-Control-Allow-Origin: *
+# Access-Control-Allow-Methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+# Access-Control-Allow-Headers: Content-Type, Authorization
+# Content-Type: application/json; charset=utf-8
+# Content-Length: 766179
+# ETag: W/"bb0e3-ZcTxCpiYDknyWxbnVHDlEqC9DVo"
+# Date: Sat, 26 Feb 2022 23:49:42 GMT
+# Connection: close
+
+# {
+#   "professionalName": "John Cornia",
+#   "base64Image": "...",
+#   "nameLink": {
+#     "firstName": "John's Code Portfolio",
+#     "url": "https://johncornia.github.io/CodePortfolio/"
+#   },
+#   "primaryDescription": "John's Work Experience",
+#   "workDescription1": "IpserLab",
+#   "workDescription2": "Stukent, Inc.",
+#   "linkTitleText": "Websites",
+#   "linkedInLink": {
+#     "text": "John's LinkedIn",
+#     "link": "https://www.linkedin.com/in/john-cornia/"
+#   },
+#   "githubLink": {
+#     "text": "John's Github",
+#     "link": "https://github.com/JohnCornia"
+#   }
+# }
+
+GET http://localhost:8080/professional
